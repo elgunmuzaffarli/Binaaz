@@ -16,7 +16,13 @@ Bakıda mənzil kirayəsi bazarını analiz etmək üçün interaktiv Power BI d
  
 ---
 ## Qarşıma çıxan problemlər
-
+# 🔍 Python
+- **Yeni sütunlar yaratdım** - District sütununda bir neçə dəyər var idi - rayon, qəsəbə, metro. Düzgün analiz üçün ayrı 2 sütun yaradıldı (location_name, location_type)
+- **NaN dəyərləri təmizlədim**
+- **Sütunlarda olan boşluqları təmizlədim**
+- **Repair_status sütunu** - sütunda True/False dəyərləri var idi, onları Remontlu/Remontsuz ilə əvəz etdim
+  
+# 🔍 Power BI
 - **Bəzi rayonların adı səhv idi** - "Nərimanov", "Nəriman Nərimanov", ReplaceValue ilə təmizlədim
 - **Measure** - Filtrlər seçildikdə measure-lər dəyişirdi — buna görə dəyərləri sabit saxlamaq üçün `ALL()` əlavə etməli oldum.
 
