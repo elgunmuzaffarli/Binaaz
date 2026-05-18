@@ -15,6 +15,12 @@ Bakıda mənzil kirayəsi bazarını analiz etmək üçün interaktiv Power BI d
 **Elan sayı:** 22 469 (16 may)
  
 ---
+## Qarşıma çıxan problemlər
+
+- **Bəzi rayonların adı səhv idi** - "Nərimanov", "Nəriman Nərimanov", ReplaceValue ilə təmizlədim
+- **Measure** - Filtrlər seçildikdə measure-lər dəyişirdi — buna görə dəyərləri sabit saxlamaq üçün `ALL()` əlavə etməli oldum.
+
+---
  
 ## 🔍 Əsas nəticələr
  
@@ -59,11 +65,5 @@ Bakıda mənzil kirayəsi bazarını analiz etmək üçün interaktiv Power BI d
  ┣ 🖼️ dashboard_preview.png   — dashboard skrinşotu
  ┗ 📄 README.md
 ```
-
- 
-## 👨‍💻 Müəllif
- 
-Layihə Data Analytics öyrənmə prosesində hazırlanıb.  
-Rəy və tövsiyələrə çox şadam!
 
  
